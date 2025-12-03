@@ -1,0 +1,354 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design System - Portfolio Style Theme */
+@layer base {
+  :root {
+    /* Dark theme (default) */
+    --color-bg: 31 19% 23%;
+    --color-bg-variant: 44 44% 30%;
+    --color-primary: 200 100% 64%;
+    --color-primary-variant: 200 100% 64% / 0.6;
+    --color-white: 0 0% 100%;
+    --color-light: 0 0% 100% / 0.6;
+
+    /* Shadcn compatibility */
+    --background: 31 19% 23%;
+    --foreground: 0 0% 100%;
+    --card: 44 44% 30%;
+    --card-foreground: 0 0% 100%;
+    --popover: 44 44% 30%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 200 100% 64%;
+    --primary-foreground: 31 19% 23%;
+    --secondary: 44 44% 30%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 44 44% 30%;
+    --muted-foreground: 0 0% 100% / 0.6;
+    --accent: 44 44% 30%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 70% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 200 100% 64% / 0.2;
+    --input: 200 100% 64% / 0.2;
+    --ring: 200 100% 64%;
+    --radius: 0.4rem;
+
+    /* Chat Bubbles */
+    --chat-bot: 44 44% 30%;
+    --chat-bot-foreground: 0 0% 100%;
+    --chat-user: 200 100% 64%;
+    --chat-user-foreground: 0 0% 100%;
+
+    --transition: all 350ms ease;
+  }
+
+  /* Light theme */
+  :root[data-theme='light'], [data-theme='light'] {
+    --color-bg: 216 50% 98%;
+    --color-bg-variant: 216 36% 93%;
+    --color-primary: 211 100% 52%;
+    --color-primary-variant: 211 100% 52% / 0.12;
+    --color-white: 216 82% 9%;
+    --color-light: 216 82% 9% / 0.7;
+
+    /* Shadcn compatibility */
+    --background: 216 50% 98%;
+    --foreground: 216 82% 9%;
+    --card: 0 0% 100%;
+    --card-foreground: 216 82% 9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 216 82% 9%;
+    --primary: 211 100% 52%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 216 36% 93%;
+    --secondary-foreground: 216 82% 9%;
+    --muted: 216 36% 93%;
+    --muted-foreground: 216 82% 9% / 0.7;
+    --accent: 216 36% 93%;
+    --accent-foreground: 216 82% 9%;
+    --destructive: 0 70% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 211 100% 52% / 0.2;
+    --input: 211 100% 52% / 0.2;
+    --ring: 211 100% 52%;
+
+    /* Chat Bubbles */
+    --chat-bot: 0 0% 100%;
+    --chat-bot-foreground: 216 82% 9%;
+    --chat-user: 211 100% 52%;
+    --chat-user-foreground: 0 0% 100%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--color-primary-variant)) transparent;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Custom scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: hsl(var(--color-primary-variant));
+    border-radius: 10px;
+    border: 3px solid transparent;
+    background-clip: padding-box;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(var(--color-primary) / 0.32);
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    background-color: hsl(var(--color-bg));
+    color: hsl(var(--color-white));
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(135deg, hsl(var(--color-primary) / 0.03), hsl(var(--color-bg-variant) / 0.05));
+    opacity: 1;
+    will-change: transform, opacity;
+    animation: bgMove 60s linear infinite;
+  }
+
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+    background: radial-gradient(ellipse at 20% 20%, hsl(var(--color-primary) / 0.02), transparent 30%), 
+                radial-gradient(ellipse at 80% 80%, hsl(var(--color-white) / 0.01), transparent 25%);
+    transform: translateZ(0);
+    pointer-events: none;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-weight: 500;
+  }
+
+  h1 { font-size: 2rem; }
+  h2 { color: hsl(var(--color-primary)); }
+
+  .text-light { color: hsl(var(--color-light)); }
+
+  a {
+    color: hsl(var(--color-primary));
+    transition: var(--transition);
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: hsl(var(--color-white));
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  section {
+    margin-bottom: 3.5rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    h1 { font-size: 2.4rem; }
+  }
+
+  @media screen and (min-width: 1024px) {
+    h1 { font-size: 2.6rem; }
+    section { margin-bottom: 4.5rem; }
+  }
+}
+
+@layer utilities {
+  /* Background animations */
+  @keyframes bgMove {
+    from { transform: translateX(0) translateY(0); }
+    to { transform: translateX(-20px) translateY(-20px); }
+  }
+
+  /* Chat Animations */
+  @keyframes slideInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideInRight {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes typing {
+    0%, 100% { opacity: 0.3; }
+    50% { opacity: 1; }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes scaleIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+  }
+
+  @keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+  }
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-10px); }
+    60% { transform: translateY(-5px); }
+  }
+
+  @keyframes shimmer {
+    0% { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+  }
+
+  .animate-slide-in-left {
+    animation: slideInLeft 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .animate-slide-in-right {
+    animation: slideInRight 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .animate-typing {
+    animation: typing 1.4s ease-in-out infinite;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.4s ease-out;
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.7s forwards;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.3s ease-out;
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .animate-pulse-slow {
+    animation: pulse 2s ease-in-out infinite;
+  }
+
+  .animate-bounce-slow {
+    animation: bounce 2s infinite;
+  }
+
+  .hover-lift {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px -8px hsl(var(--primary) / 0.2);
+  }
+
+  .container {
+    max-width: 1100px;
+    padding: 0 1rem;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .btn {
+    display: inline-block;
+    color: hsl(var(--color-primary));
+    padding: 0.6rem 1rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    border: 1px solid hsl(var(--color-primary));
+    transition: var(--transition);
+    text-align: center;
+  }
+
+  .btn:hover {
+    background: hsl(var(--color-white));
+    color: hsl(var(--color-bg-variant));
+    border-color: transparent;
+  }
+
+  .btn-primary {
+    background: hsl(var(--color-primary));
+    color: hsl(var(--color-bg));
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "common": {
+    "appName": "EstateFlow",
+    "browse": "Explorar",
+    "browseProperties": "Explorar propiedades",
+    "viewDetails": "Ver detalles",
+    "bookTour": "Reservar visita",
+    "clearFilters": "Limpiar filtros",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "error": "Error",
+    "success": "Éxito"
+  },
+  "home": {
+    "title": "Encuentra tu hogar soñado en todo el mundo 🌍",
+    "subtitle": "¡Bienvenido a EstateFlow! Tu conserje inmobiliario personal para propiedades en todo el mundo. ¡Desde Nueva York hasta Accra, Londres hasta Lagos - encontremos tu hogar perfecto! 🏡",
+    "chatWithAI": "Chatear con IA",
+    "browseAll": "Explorar todo",
+    "worldMap": "🗺️ Mapa mundial",
+    "features": "Disponible 24/7 • Soporte multilingüe • Cobertura global",
+    "featuredProperties": "Propiedades destacadas",
+    "unitedStates": "Estados Unidos",
+    "ghana": "Ghana",
+    "unitedKingdom": "Reino Unido",
+    "nigeria": "Nigeria"
+  },
+  "properties": {
+    "allProperties": "Todas las propiedades en todo el mundo 🌍",
+    "propertiesIn": "Propiedades en",
+    "allLocations": "Todas las ubicaciones",
+    "property": "propiedad",
+    "properties": "propiedades",
+    "available": "disponible",
+    "noPropertiesFound": "No se encontraron propiedades con los filtros seleccionados",
+    "bedrooms": "Habitaciones",
+    "bathrooms": "Baños",
+    "area": "Área"
+  },
+  "filters": {
+    "country": "🌍 País:",
+    "city": "📍 Ciudad:",
+    "allCountries": "Todos los países",
+    "allCities": "Todas las ciudades"
+  },
+  "chat": {
+    "welcomeMessage": "¡Hola! Soy tu conserje IA de EstateFlow. 🌍 Estoy aquí para ayudarte a encontrar propiedades en todo el mundo - ¡desde Nueva York hasta Accra, Londres hasta Lagos! ¿Qué estás buscando?",
+    "placeholder": "Pregúntame sobre propiedades...",
+    "propertiesInUS": "🇺🇸 Propiedades en EE. UU.",
+    "propertiesInGhana": "🇬🇭 Propiedades en Ghana",
+    "propertiesInUK": "🇬🇧 Propiedades en Reino Unido",
+    "showAllCountries": "🌍 Mostrar todos los países",
+    "errorMessage": "Lo siento, pero estoy teniendo problemas para conectarme en este momento. Por favor, inténtalo de nuevo."
+  },
+  "booking": {
+    "bookTour": "Reservar una visita",
+    "selectDate": "Seleccionar fecha",
+    "selectTime": "Seleccionar hora",
+    "confirmBooking": "Confirmar reserva",
+    "tourBooked": "¡Visita reservada!",
+    "tourScheduled": "Tu visita está programada para el {{date}} a las {{time}}",
+    "bookingSuccess": "¡Visita reservada con éxito! Revisa tu correo electrónico para la confirmación."
+  },
+  "propertyDetail": {
+    "photos": "Fotos",
+    "tour360": "Tour 360°",
+    "location": "Ubicación",
+    "description": "Descripción",
+    "keyFeatures": "Características principales",
+    "nearbyPlaces": "Lugares cercanos",
+    "schools": "Escuelas",
+    "shopping": "Compras",
+    "transport": "Transporte"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "¡Ups! Página no encontrada",
+    "returnHome": "Volver al inicio"
+  }
+}
+

@@ -1,0 +1,4 @@
+project_id = "dmznvecnmytiejpkqcds"
+
+[functions.realtime-concierge]
+verify_jwt = false

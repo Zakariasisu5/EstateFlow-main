@@ -1,0 +1,81 @@
+{
+  "common": {
+    "appName": "EstateFlow",
+    "browse": "Durchsuchen",
+    "browseProperties": "Immobilien durchsuchen",
+    "viewDetails": "Details anzeigen",
+    "bookTour": "Besichtigung buchen",
+    "clearFilters": "Filter löschen",
+    "confirm": "Bestätigen",
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "error": "Fehler",
+    "success": "Erfolg"
+  },
+  "home": {
+    "title": "Finden Sie Ihr Traumhaus weltweit 🌍",
+    "subtitle": "Willkommen bei EstateFlow! Ihr persönlicher Immobilien-Concierge für Immobilien auf der ganzen Welt. Von New York bis Accra, London bis Lagos - finden wir Ihr perfektes Zuhause! 🏡",
+    "chatWithAI": "Mit KI chatten",
+    "browseAll": "Alle durchsuchen",
+    "worldMap": "🗺️ Weltkarte",
+    "features": "Verfügbar 24/7 • Mehrsprachiger Support • Globale Abdeckung",
+    "featuredProperties": "Ausgewählte Immobilien",
+    "unitedStates": "Vereinigte Staaten",
+    "ghana": "Ghana",
+    "unitedKingdom": "Vereinigtes Königreich",
+    "nigeria": "Nigeria"
+  },
+  "properties": {
+    "allProperties": "Alle Immobilien weltweit 🌍",
+    "propertiesIn": "Immobilien in",
+    "allLocations": "Alle Standorte",
+    "property": "Immobilie",
+    "properties": "Immobilien",
+    "available": "verfügbar",
+    "noPropertiesFound": "Keine Immobilien mit den ausgewählten Filtern gefunden",
+    "bedrooms": "Schlafzimmer",
+    "bathrooms": "Badezimmer",
+    "area": "Fläche"
+  },
+  "filters": {
+    "country": "🌍 Land:",
+    "city": "📍 Stadt:",
+    "allCountries": "Alle Länder",
+    "allCities": "Alle Städte"
+  },
+  "chat": {
+    "welcomeMessage": "Hallo! Ich bin Ihr EstateFlow KI-Concierge. 🌍 Ich bin hier, um Ihnen zu helfen, Immobilien weltweit zu finden - von New York bis Accra, London bis Lagos! Wonach suchen Sie?",
+    "placeholder": "Fragen Sie mich nach Immobilien...",
+    "propertiesInUS": "🇺🇸 Immobilien in den USA",
+    "propertiesInGhana": "🇬🇭 Immobilien in Ghana",
+    "propertiesInUK": "🇬🇧 Immobilien im Vereinigten Königreich",
+    "showAllCountries": "🌍 Alle Länder anzeigen",
+    "errorMessage": "Es tut mir leid, aber ich habe gerade Verbindungsprobleme. Bitte versuchen Sie es erneut."
+  },
+  "booking": {
+    "bookTour": "Besichtigung buchen",
+    "selectDate": "Datum auswählen",
+    "selectTime": "Uhrzeit auswählen",
+    "confirmBooking": "Buchung bestätigen",
+    "tourBooked": "Besichtigung gebucht!",
+    "tourScheduled": "Ihre Besichtigung ist für den {{date}} um {{time}} geplant",
+    "bookingSuccess": "Besichtigung erfolgreich gebucht! Überprüfen Sie Ihre E-Mail zur Bestätigung."
+  },
+  "propertyDetail": {
+    "photos": "Fotos",
+    "tour360": "360° Tour",
+    "location": "Standort",
+    "description": "Beschreibung",
+    "keyFeatures": "Hauptmerkmale",
+    "nearbyPlaces": "Nahegelegene Orte",
+    "schools": "Schulen",
+    "shopping": "Einkaufen",
+    "transport": "Transport"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Ups! Seite nicht gefunden",
+    "returnHome": "Zur Startseite zurückkehren"
+  }
+}
+

@@ -1,0 +1,81 @@
+{
+  "common": {
+    "appName": "EstateFlow",
+    "browse": "Browse",
+    "browseProperties": "Browse Properties",
+    "viewDetails": "View Details",
+    "bookTour": "Book Tour",
+    "clearFilters": "Clear Filters",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "close": "Close",
+    "error": "Error",
+    "success": "Success"
+  },
+  "home": {
+    "title": "Find Your Dream Home Worldwide 🌍",
+    "subtitle": "Welcome to EstateFlow! Your personal Real Estate Concierge for properties across the globe. From New York to Accra, London to Lagos - let's find your perfect home! 🏡",
+    "chatWithAI": "Chat with AI",
+    "browseAll": "Browse All",
+    "worldMap": "🗺️ World Map",
+    "features": "Available 24/7 • Multilingual Support • Global Coverage",
+    "featuredProperties": "Featured Properties",
+    "unitedStates": "United States",
+    "ghana": "Ghana",
+    "unitedKingdom": "United Kingdom",
+    "nigeria": "Nigeria"
+  },
+  "properties": {
+    "allProperties": "All Properties Worldwide 🌍",
+    "propertiesIn": "Properties in",
+    "allLocations": "All Locations",
+    "property": "property",
+    "properties": "properties",
+    "available": "available",
+    "noPropertiesFound": "No properties found with the selected filters",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "area": "Area"
+  },
+  "filters": {
+    "country": "🌍 Country:",
+    "city": "📍 City:",
+    "allCountries": "All Countries",
+    "allCities": "All Cities"
+  },
+  "chat": {
+    "welcomeMessage": "Hello! I'm your EstateFlow AI Concierge. 🌍 I'm here to help you find properties worldwide - from New York to Accra, London to Lagos! What are you looking for?",
+    "placeholder": "Ask me about properties...",
+    "propertiesInUS": "🇺🇸 Properties in US",
+    "propertiesInGhana": "🇬🇭 Properties in Ghana",
+    "propertiesInUK": "🇬🇧 Properties in UK",
+    "showAllCountries": "🌍 Show all countries",
+    "errorMessage": "I apologize, but I'm having trouble connecting right now. Please try again."
+  },
+  "booking": {
+    "bookTour": "Book a Tour",
+    "selectDate": "Select Date",
+    "selectTime": "Select Time",
+    "confirmBooking": "Confirm Booking",
+    "tourBooked": "Tour Booked!",
+    "tourScheduled": "Your tour is scheduled for {{date}} at {{time}}",
+    "bookingSuccess": "Tour booked successfully! Check your email for confirmation."
+  },
+  "propertyDetail": {
+    "photos": "Photos",
+    "tour360": "360° Tour",
+    "location": "Location",
+    "description": "Description",
+    "keyFeatures": "Key Features",
+    "nearbyPlaces": "Nearby Places",
+    "schools": "Schools",
+    "shopping": "Shopping",
+    "transport": "Transport"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oops! Page not found",
+    "returnHome": "Return to Home"
+  }
+}
+

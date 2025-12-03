@@ -1,0 +1,81 @@
+{
+  "common": {
+    "appName": "EstateFlow",
+    "browse": "Parcourir",
+    "browseProperties": "Parcourir les propriétés",
+    "viewDetails": "Voir les détails",
+    "bookTour": "Réserver une visite",
+    "clearFilters": "Effacer les filtres",
+    "confirm": "Confirmer",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "error": "Erreur",
+    "success": "Succès"
+  },
+  "home": {
+    "title": "Trouvez votre maison de rêve dans le monde entier 🌍",
+    "subtitle": "Bienvenue sur EstateFlow ! Votre concierge immobilier personnel pour des propriétés dans le monde entier. De New York à Accra, de Londres à Lagos - trouvons votre maison parfaite ! 🏡",
+    "chatWithAI": "Discuter avec l'IA",
+    "browseAll": "Tout parcourir",
+    "worldMap": "🗺️ Carte du monde",
+    "features": "Disponible 24/7 • Support multilingue • Couverture mondiale",
+    "featuredProperties": "Propriétés en vedette",
+    "unitedStates": "États-Unis",
+    "ghana": "Ghana",
+    "unitedKingdom": "Royaume-Uni",
+    "nigeria": "Nigéria"
+  },
+  "properties": {
+    "allProperties": "Toutes les propriétés dans le monde 🌍",
+    "propertiesIn": "Propriétés à",
+    "allLocations": "Tous les emplacements",
+    "property": "propriété",
+    "properties": "propriétés",
+    "available": "disponible",
+    "noPropertiesFound": "Aucune propriété trouvée avec les filtres sélectionnés",
+    "bedrooms": "Chambres",
+    "bathrooms": "Salles de bain",
+    "area": "Superficie"
+  },
+  "filters": {
+    "country": "🌍 Pays :",
+    "city": "📍 Ville :",
+    "allCountries": "Tous les pays",
+    "allCities": "Toutes les villes"
+  },
+  "chat": {
+    "welcomeMessage": "Bonjour ! Je suis votre concierge IA EstateFlow. 🌍 Je suis là pour vous aider à trouver des propriétés dans le monde entier - de New York à Accra, de Londres à Lagos ! Que recherchez-vous ?",
+    "placeholder": "Demandez-moi des propriétés...",
+    "propertiesInUS": "🇺🇸 Propriétés aux États-Unis",
+    "propertiesInGhana": "🇬🇭 Propriétés au Ghana",
+    "propertiesInUK": "🇬🇧 Propriétés au Royaume-Uni",
+    "showAllCountries": "🌍 Afficher tous les pays",
+    "errorMessage": "Je m'excuse, mais j'ai des difficultés à me connecter en ce moment. Veuillez réessayer."
+  },
+  "booking": {
+    "bookTour": "Réserver une visite",
+    "selectDate": "Sélectionner la date",
+    "selectTime": "Sélectionner l'heure",
+    "confirmBooking": "Confirmer la réservation",
+    "tourBooked": "Visite réservée !",
+    "tourScheduled": "Votre visite est programmée pour le {{date}} à {{time}}",
+    "bookingSuccess": "Visite réservée avec succès ! Vérifiez votre e-mail pour la confirmation."
+  },
+  "propertyDetail": {
+    "photos": "Photos",
+    "tour360": "Visite 360°",
+    "location": "Emplacement",
+    "description": "Description",
+    "keyFeatures": "Caractéristiques principales",
+    "nearbyPlaces": "Lieux à proximité",
+    "schools": "Écoles",
+    "shopping": "Shopping",
+    "transport": "Transport"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oups ! Page non trouvée",
+    "returnHome": "Retour à l'accueil"
+  }
+}
+
